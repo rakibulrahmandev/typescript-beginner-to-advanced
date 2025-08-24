@@ -1,0 +1,12 @@
+// mixed array -> key, value;
+var employee;
+employee = ['John Doe', 100];
+console.log(employee);
+var user;
+user = [101, 'Amy Jackson'];
+console.log(user);
+var language;
+language = ['TypeScript', 2014];
+console.log(language);
+language.push('JavaScript', 1995);
+console.log(language);
