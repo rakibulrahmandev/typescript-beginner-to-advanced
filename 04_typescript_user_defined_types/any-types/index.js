@@ -1,0 +1,10 @@
+var user;
+user = 'Rahman';
+user = 18;
+user = true;
+user = null;
+console.log(user);
+var arr;
+arr = [];
+arr.push('hello', 18, true, null);
+console.log(arr);
