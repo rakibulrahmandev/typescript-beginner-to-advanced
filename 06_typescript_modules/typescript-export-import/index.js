@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var user_1 = require("./user");
+var user_2 = require("./user");
+var userOne = new user_1.User('Rakibul Rahman', 18, true);
+userOne.greeting();
+var userTwo = new user_1.UserDetails('Rakibul Rahman', 18, 'Bangladesh', 'Dhaka', true);
+userTwo.greeting();
+var userThree = new user_2.User('Ensiya Rahman', 15, true);
+userThree.greeting();
+var userFour = new user_2.UserDetails('Ensiya Rahman', 15, 'Russia', 'Moscow', true);
+userFour.greeting();
