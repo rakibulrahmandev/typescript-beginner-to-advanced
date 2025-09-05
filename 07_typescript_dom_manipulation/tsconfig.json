@@ -1,0 +1,62 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "esnext", // Module system (Node.js default)
+    "target": "esnext", // Output JavaScript version
+    "types": [],
+    // For nodejs:
+    "lib": ["esnext", "DOM"], // Include latest JS + DOM types
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+    // "sourceMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "strict": true, // Enable strict type-checking
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": false,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true, // Skip type-checking node_modules
+
+    "esModuleInterop": true,         // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src"],                // Your TS source files
+  // "exclude": ["node_modules"]        // Ignore node_modules
+}
+
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     "rootDir": "./src",
+//     "outDir": "./dist",
+//     "strict": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true
+//   },
+//   "include": ["./src"]
+// }
